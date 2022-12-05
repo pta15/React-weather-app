@@ -7,7 +7,7 @@ function App() {
   //const url = 'https://api.openweathermap.org/data/2.5/weather?q=birmingham,uk&appid=4f318c295b3aa42d94315eacbbf5ade9'
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="container">
         <div className="top">
           <div className="location">
@@ -28,7 +28,7 @@ function App() {
             <p>20%</p>
           </div>
           <div className="wind">
-            12 MPH
+            <p>12 MPH</p>
           </div>
         </div>
       </div>
