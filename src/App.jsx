@@ -30,7 +30,8 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <p>{data.name},{data.sys ? <p>{data.sys.country}</p> : null}</p>
+            <p>{data.name},</p>
+            <p>{data.sys ? <p>{data.sys.country}</p> : null}</p>
           </div>
           <div className="temp">
             {data.main ? <h1>{data.main.temp.toFixed()}°C</h1> : null}
