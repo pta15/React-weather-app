@@ -41,7 +41,7 @@ function App() {
         </div>
         <div className="bottom">
           <div className="feels">
-            {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°F</p> : null}
+            {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°c</p> : null}
             <p>Feels like</p>
           </div>
           <div className="humidity">
